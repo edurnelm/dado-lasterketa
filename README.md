@@ -1,6 +1,6 @@
 # DadoLasterketa
 
-Dado Lasterketa Jolasmatikako projektu bat da.
+Dado Lasterketa JolasMATIKAko projektu bat da.
 
 Jolas honetan dadoak bota eta puntuazio altuena ateratzen duen jokalariak irabazten du. 
 Hiru jolas modu daude: tirada 1, 3 tirada, eta 3 tirada batekoak errepikatzen.
