@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dado lasterketa</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/41440d45b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class = 'header'>
+        <div id='image'>
+            <a target="_blank" href="http://jolasmatika.ehu.eus"><img src="images/jolasmatika.png" alt="Jolasmatika" height=60px width=40px></a>
+        </div>
+        <div id='title'>
+            <h2>Dado Lasterketa</h2>
+        </div>
+        <hr>
+    </header>
+    <div class = 'aukerak'>
+        <div id = 'jok_kop'>
+            <h3 class="jolas_aukerak" id='jokalari_kopurua'>Jokalari kopurua: 2</h3>
+            <button id='plus' class = 'plus-minus'><i class="fas fa-plus-circle fa-4x"></i></button>
+            <button id = 'minus' class = 'plus-minus'><i class="fas fa-minus-circle fa-4x"></i></button>
+            <p></p>
+        </div>
+        <div>
+            <h3 class="jolas_aukerak">Jokaldi mota: </h3>
+            <h4 class='not_selected' id='tirada_bakarra'>Tirada bakarra</h4>
+            <h4 class='not_selected' id='3_tirada'>3 tirada</h4>
+            <h4 class='not_selected' id='3_tirada_+'>3 tirada + 1ekoa errepikatu</h4>
+        </div>
+        <div id='botoiak'>
+            <button class = 'botoia' id='hasi_jolasa'>Bota dadoak</button>
+            <button class = 'botoia' id='berriz'>Hasi berriro</button>
+            <button class = 'botoia' id='batekoak'>Bota batekoak</button>
+        </div>
+    </div>
+    <div class= 'jolasa'>
+        <div id = 'dadoak'>
+            <div class = 'dadodiv'>
+                <p>1 jokalaria</p>
+                <img class = 'dado' id = 'dado1' src="./images/bat.webp">
+            </div>
+            <div class = 'dadodiv'>
+                <p>2 jokalaria</p>
+                <img class = 'dado' id = 'dado2' src='./images/bat.webp'>
+            </div>
+        </div>
+    </div>
+    <div id = 'puntuazioa'>
+        <div class = 'puntuazioa' id='puntuazioa1'>hello</div>
+        <div class = 'puntuazioa' id='puntuazioa2'>hello</div>
+    </div>
+
+    <div id='irabazlea'></div>
+    <script src = './DadoLasterketa.js'></script>
+</body>
+</html>

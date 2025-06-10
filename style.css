@@ -1,0 +1,191 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+html { 
+    background: #46515D;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+header{
+    position: fixed;
+    z-index: 5;
+    background-color: #46515D;
+    width: 100%;
+    font-family: 'DM Mono', monospace;
+    color: #F7FFF7;
+    padding: 0px;
+    padding-left: 10px;
+}
+#title{
+    display: inline-block;
+    margin-top: 50px;
+}
+#image {
+    position: relative;
+    float: right;
+    padding: 0px;
+    margin-top: 10px;
+    top: 2%;
+    right: 2%;
+}
+#image:hover{
+    animation-name: resize;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes resize{
+    0%{
+        transform:scale(1)
+    }
+    100%{
+        transform: scale(1.2)
+    }
+}
+hr{
+    height: 1px;
+    background-color: #F7FFF7;
+    border: none;
+}
+.jolas_aukerak {
+    position: relative;
+    width: fit-content;
+    background: #FF6B6B;
+    color: #F7FFF7;
+    margin-top: 5px;
+    margin-bottom:10px;
+    text-align: left;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #4ECDC4;
+}
+h3 .jolas_aukerak{
+    float: left;
+}
+.jolas_aukerak:hover {
+    left: 5px;
+    top: 5px;
+    box-shadow: 0px 0px;
+}
+.jolas_erabakiak {
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+}
+.jolas_erabakiak:hover{
+    background-color: rgb(136, 30, 95);
+}
+#jolasmodalitatea{
+    width: fit-content;
+}
+.botoia{
+    position: relative;
+    border: none;
+    font-size: 20px;
+    margin-top: 5px;
+    background-color: #FFE45C;
+    color: #46515D;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #FF6B6B;
+}
+.botoia:hover{
+    left: 5px;
+    top: 5px;
+    box-shadow: 0px 0px;
+    background-color:  #FFE45C;
+}
+
+.dado{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+h4{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: fit-content;
+    color: #F7FFF7;
+}
+h4:hover{
+    background-color: #FF6B6B;
+}
+#irabazlea{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100px;
+    color: #46515D;
+    background-color: #FFE45C;
+    font-family: 'DM Mono', monospace;
+}
+.aukerak{
+    display: inline-block;
+    width: 40%;
+    margin-top:100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5%;
+}
+.jolasa{
+    margin-top: 100px;
+    display: block;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+#dadoak{
+    flex: 1;
+    height: auto;
+    text-align: center;
+}
+.dadodiv{
+    position: inline-block;
+    width: 150px;
+    height: fit-content;
+    float: left;
+    color: #F7FFF7;
+    font-family: 'DM Mono', monospace;
+    font-weight: bold;
+}
+#puntuazioa{
+    position: relative;
+    padding: 5px;
+    display: none;
+    background-color: #FF6B6B;
+    color: #F7FFF7;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'DM Mono', monospace;
+    margin: 0px 10px 50px 10px;
+}
+.puntuazioa{
+    display: inline-block;
+    width: 45%;
+    top: 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+.plus-minus{
+    color: #FFE45C;
+}
